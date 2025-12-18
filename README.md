@@ -48,7 +48,7 @@ The application focuses on speed, simplicity, and real-time trending insights po
 - Appwrite (Database & API)
 - TMDB API (The Movie Database) for fetching movie details
 
-----
+-
 
 ## 🔑 API Usage
 
