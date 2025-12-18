@@ -1,6 +1,6 @@
-## 📸 Screenshots
+## Movies Rating App
 
-```md
+
 ![Home Page](./public/image.png)
 
 # 🎬 Movie Explorer – React + Appwrite
@@ -49,4 +49,3 @@ The app focuses on speed, simplicity, and real-time trending insights driven by 
 - External Movie API (for fetching movie data)
 
 ---
-```
