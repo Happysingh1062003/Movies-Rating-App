@@ -1,51 +1,83 @@
-## Movies Rating App
-
+# 🎬 Movie Rating App
 
 ![Home Page](./public/image.png)
 
-# 🎬 Movie Explorer – React + Appwrite
+Movie Rating App is a modern movie discovery web application built using **React.js** and **Appwrite**.  
+It allows users to search for movies, view essential details, and explore **top trending movies based on real user searches**.
 
-Movie Explorer is a modern web application built using **React.js** and **Appwrite** that allows users to search for movies, view basic details, and discover **top trending movies based on real user searches**.
-
-The app focuses on speed, simplicity, and real-time trending insights driven by user activity.
+The application focuses on speed, simplicity, and real-time trending insights powered by user activity.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Search Movies Instantly**
+### 🔍 Search Movies
+- Search movies instantly by title
+- View key details such as:
+  - Movie title
+  - Release year
+  - Rating
+  - Poster & overview
 
-  - Search for movies by title
-  - Get essential details like name, release year, and rating
+### 📈 Trending Movies (User-Based)
+- Displays top trending movies based on what users search
+- Trending list updates dynamically
+- Powered by Appwrite database analytics
 
-- 📈 **Trending Movies (User-Based)**
+### ⚡ Fast & Responsive UI
+- Built with React.js for smooth performance
+- Fully responsive for mobile and desktop
+- Clean and minimal user interface
 
-  - Displays top trending movies based on what users are searching for
-  - Trending list updates dynamically using Appwrite backend
-
-- ⚡ **Fast & Responsive UI**
-
-  - Built with React.js for a smooth user experience
-  - Optimized for desktop and mobile devices
-
-- ☁️ **Backend Powered by Appwrite**
-  - Stores search analytics
-  - Manages trending movie data
-  - Secure and scalable backend services
+### ☁️ Backend with Appwrite
+- Stores user search data
+- Tracks movie popularity
+- Generates real-time trending movies
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-
+### Frontend
 - React.js
 - JavaScript (ES6+)
-- HTML5 & CSS3
+- HTML5
+- CSS3
 
-**Backend / Services**
-
+### Backend & APIs
 - Appwrite (Database & API)
-- External Movie API (for fetching movie data)
+- TMDB API (The Movie Database) for fetching movie details
 
 ---
+
+## 🔑 API Usage
+
+- **TMDB API** is used to fetch:
+  - Movie information
+  - Ratings
+  - Release dates
+  - Posters and metadata
+
+- **Appwrite** is used to:
+  - Store user search queries
+  - Track popularity
+  - Generate trending movies dynamically
+
+---
+
+## 🧠 How Trending Works
+
+1. User searches for a movie  
+2. Search data is stored in Appwrite  
+3. Movies with higher search frequency appear in Trending  
+4. Trending list updates automatically  
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/Happysingh1062003/Movies-Rating-App.git
+cd Movies-Rating-App
+npm install
+npm run dev
