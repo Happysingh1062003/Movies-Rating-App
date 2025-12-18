@@ -7,7 +7,7 @@ It allows users to search for movies, view essential details, and explore **top 
 
 The application focuses on speed, simplicity, and real-time trending insights powered by user activity.
 
----
+----
 
 ## 🚀 Features
 
@@ -34,7 +34,7 @@ The application focuses on speed, simplicity, and real-time trending insights po
 - Tracks movie popularity
 - Generates real-time trending movies
 
----
+----
 
 ## 🛠️ Tech Stack
 
@@ -48,7 +48,7 @@ The application focuses on speed, simplicity, and real-time trending insights po
 - Appwrite (Database & API)
 - TMDB API (The Movie Database) for fetching movie details
 
----
+----
 
 ## 🔑 API Usage
 
@@ -63,7 +63,7 @@ The application focuses on speed, simplicity, and real-time trending insights po
   - Track popularity
   - Generate trending movies dynamically
 
----
+----
 
 ## 🧠 How Trending Works
 
@@ -72,7 +72,7 @@ The application focuses on speed, simplicity, and real-time trending insights po
 3. Movies with higher search frequency appear in Trending  
 4. Trending list updates automatically  
 
----
+----
 
 ## 📦 Installation & Setup
 
